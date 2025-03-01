@@ -15,7 +15,7 @@ run_attack() {
 
 # Последовательно выполняем атаки
 run_attack "http_flood.sh"
-run_attack "icmp_flood.sh"
+#run_attack "icmp_flood.sh"
 run_attack "ping_od.sh"
 run_attack "slowloris.sh"
 run_attack "syn_flood.sh"
