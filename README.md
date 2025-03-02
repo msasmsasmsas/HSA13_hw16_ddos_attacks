@@ -19,3 +19,9 @@ apr_socket_recv: Connection reset by peer (104)
 Total of 213602 requests completed
 
 ![изображение](https://github.com/user-attachments/assets/f48933ee-93ca-4124-9b19-9ee8f0b514ca)
+
+
+
+syn flood
+
+![изображение](https://github.com/user-attachments/assets/aff704d2-beb1-4aeb-afe6-22e0a087df42)
