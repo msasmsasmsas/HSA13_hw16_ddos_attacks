@@ -34,19 +34,10 @@ hping in flood mode, no replies will be shown
 
 ## slowloris
 
+
 PS E:\ai\ai_anppr\HSA13_hw16_ddos_attacks> docker exec -it kali sh
-# PS E:\ai\ai_anppr\HSA13_hw16_ddos_attacks> docker exec -it kali sh
-# chmod +x /workspace/scripts/syn_flood.sh
-# /workspace/scripts/syn_flood.sh
-HPING 172.26.0.2 (eth0 172.26.0.2): S set, 40 headers + 0 data bytes
-hping in flood mode, no replies will be shown
-sh: 1: PS: not found
-# # # sh: 4: Syntax error: "(" unexpected
-# sh: 4: hping: not found
-# exit
-PS E:\ai\ai_anppr\HSA13_hw16_ddos_attacks> docker exec -it kali sh
-# chmod +x /workspace/scripts/slowloris.sh
-# /workspace/scripts/slowloris.sh
+chmod +x /workspace/scripts/slowloris.sh
+/workspace/scripts/slowloris.sh
 [02-03-2025 15:38:06] Attacking 172.18.0.3 with 100000 sockets.
 [02-03-2025 15:38:06] Creating sockets...
 [02-03-2025 15:38:10] Sending keep-alive headers...
