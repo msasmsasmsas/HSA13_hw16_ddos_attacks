@@ -5,7 +5,7 @@
 ![изображение](https://github.com/user-attachments/assets/86e6b1ce-98c3-45c5-aaef-9728688fa7b2)
 
 
-# http flood
+## http flood
 
 PS E:\ai\ai_anppr\HSA13_hw16_ddos_attacks> docker exec -it kali sh
 chmod +x /workspace/scripts/http_flood.sh
@@ -22,7 +22,7 @@ Total of 213602 requests completed
 
 
 
-# syn flood
+## syn flood
 
 PS E:\ai\ai_anppr\HSA13_hw16_ddos_attacks> docker exec -it kali sh
 chmod +x /workspace/scripts/syn_flood.sh
