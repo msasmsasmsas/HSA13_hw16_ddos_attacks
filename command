@@ -8,6 +8,25 @@ devcontainer up --remove-existing-container --workspace-folder .
 docker-compose down --volumes --remove-orphans
 
 ---
+docker exec -it kali sh
+
+chmod +x /workspace/scripts/run_attacks.sh
+
+ /workspace/scripts/run_attacks.sh
+
+docker exec -it kali sh
+
+chmod +x /workspace/scripts/syn_flood.sh
+
+/workspace/scripts/syn_flood.sh
+
+
+docker exec -it kali sh
+
+chmod +x /workspace/scripts/slowloris.sh
+
+/workspace/scripts/slowloris.sh
+
 docker exec -it kali /workspace/scripts/setup_kali.sh
 # or
 docker-compose exec --user root kali bash -c "/workspace/scripts/setup_kali.sh"
