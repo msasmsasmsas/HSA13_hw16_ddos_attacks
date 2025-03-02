@@ -23,5 +23,10 @@ Total of 213602 requests completed
 
 
 syn flood
+PS E:\ai\ai_anppr\HSA13_hw16_ddos_attacks> docker exec -it kali sh
+# chmod +x /workspace/scripts/syn_flood.sh
+# /workspace/scripts/syn_flood.sh
+HPING 172.26.0.2 (eth0 172.26.0.2): S set, 40 headers + 0 data bytes
+hping in flood mode, no replies will be shown
 
 ![изображение](https://github.com/user-attachments/assets/aff704d2-beb1-4aeb-afe6-22e0a087df42)
